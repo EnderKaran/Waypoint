@@ -68,10 +68,11 @@ export default function FlipTheCoin() {
           className="cursor-pointer z-10 w-48 h-48 md:w-56 md:h-56 relative"
         >
           {/* Paranın Önü/Arkası mantığı */}
-          <Image 
+         <Image 
             src={`/challenges/flip-the-coin/${result === "Heads" ? "heads.svg" : "tails.svg"}`}
             alt={result}
             fill
+            priority
             className="drop-shadow-2xl"
           />
         </motion.div>
@@ -81,7 +82,13 @@ export default function FlipTheCoin() {
           animate={{ scale: isFlipping ? [1, 0.5, 1] : 1, opacity: isFlipping ? [0.4, 0.2, 0.4] : 0.4 }}
           className="mt-4"
         >
-           <Image src="/challenges/flip-the-coin/shadow.svg" alt="shadow" width={100} height={20} />
+           <Image 
+              src="/challenges/flip-the-coin/shadow.svg" 
+              alt="shadow" 
+              width={100} 
+              height={20} 
+              style={{ height: 'auto' }}
+            />
         </motion.div>
       </div>
 
