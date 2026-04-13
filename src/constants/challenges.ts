@@ -8,7 +8,7 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     description: "Yazı mı tura mı? İnteraktif animasyonlu bir şans oyunu.",
     slug: "flip-the-coin",
-    position: { x: 50, y: 100 }
+    position: { x: 50, y: 80 }
   },
   {
     id: "qr-code-generator",
@@ -17,7 +17,7 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "TypeScript", "QR API"],
     description: "Linkleri anında QR koda dönüştüren ve indirme imkanı sunan araç.",
     slug: "qr-code-generator",
-    position: { x: 30, y: 350 }
+    position: { x: 35, y: 300 }
   },
   {
     id: "device-shop-checkout",
@@ -26,6 +26,6 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "Grid", "Forms"],
     description: "Apple tarzı şık bir sepet ve ödeme sayfası. Karmaşık Grid yapıları ve form yönetimi üzerine bir çalışma.",
     slug: "device-shop-checkout",
-    position: { x: 70, y: 600 } 
+    position: { x: 60, y: 520 } 
   }
 ];
