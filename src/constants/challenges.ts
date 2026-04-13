@@ -19,4 +19,13 @@ export const CHALLENGES: Challenge[] = [
     slug: "qr-code-generator",
     position: { x: 30, y: 350 }
   },
+  {
+    id: "device-shop-checkout",
+    title: "Device Shop Checkout",
+    difficulty: "Junior", 
+    tags: ["Next.js", "Grid", "Forms"],
+    description: "Apple tarzı şık bir sepet ve ödeme sayfası. Karmaşık Grid yapıları ve form yönetimi üzerine bir çalışma.",
+    slug: "device-shop-checkout",
+    position: { x: 70, y: 600 } 
+  }
 ];
