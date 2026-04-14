@@ -37,7 +37,7 @@ export const CHALLENGES: Challenge[] = [
     id: "github-profile",
     title: "GitHub Profile",
     difficulty: "Mid-Level",
-    status: "active",
+    status: "done",
     tags: ["Next.js", "API Entegrasyonu", "Tailwind CSS"],
     description: "GitHub API kullanarak gerçek zamanlı kullanıcı verisi çeken ve detaylı repo analizi sunan arayüz.",
     slug: "github-profile",

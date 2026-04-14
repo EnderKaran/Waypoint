@@ -12,7 +12,7 @@ export default function HomeClient() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null; // Sunucu tarafında hiçbir şey render etme
+  if (!mounted) return null;
 
   const total = CHALLENGES.length;
   const doneCount = CHALLENGES.filter(c => c.status === "done").length;
@@ -52,6 +52,7 @@ export default function HomeClient() {
         <div className="relative">
           {CHALLENGES.map((challenge, index) => {
             const status = challenge.status;
+            const difficulty = challenge.difficulty; // Junior veya Mid-level verisi buradan geliyor
             
             return (
               <div key={challenge.id} className="grid grid-cols-[80px_1fr] gap-0 relative group">
@@ -85,7 +86,18 @@ export default function HomeClient() {
                     `}
                   >
                     <div className="flex items-center justify-between mb-3 font-['Space_Mono',monospace] text-[0.6rem]">
-                      <span className="text-[#333]">0{index + 1}</span>
+                      <div className="flex items-center gap-3">
+                        <span className="text-[#333]">0{index + 1}</span>
+                        {/* ZORLUK SEVİYESİ BADGE */}
+                        <span className={`px-2 py-0.5 rounded border ${
+                          difficulty.toLowerCase() === 'junior' 
+                          ? 'border-yellow-500/20 text-yellow-600' 
+                          : 'border-purple-500/20 text-purple-500'
+                        }`}>
+                          {difficulty.toUpperCase()}
+                        </span>
+                      </div>
+                      
                       <span className={`
                         px-2 py-1 rounded border tracking-widest uppercase
                         ${status === 'done' ? 'bg-[#0a1f10] text-green-500 border-green-500/20' : 
@@ -130,7 +142,7 @@ export default function HomeClient() {
         </div>
       </section>
 
-      <footer className="py-12 text-center font-['Space_Mono',monospace] text-[0.55rem] text-[#fffff] tracking-[0.2em] uppercase">
+      <footer className="py-12 text-center font-['Space_Mono',monospace] text-[0.55rem] text-[#444] tracking-[0.2em] uppercase">
         Waypoint · Her commit bir adım
       </footer>
 
