@@ -2,30 +2,34 @@ import { Challenge } from "@/types";
 
 export const CHALLENGES: Challenge[] = [
   {
+    position: 0,
     id: "flip-the-coin",
     title: "Flip The Coin",
     difficulty: "Junior",
+    // Durum: "done", "active" veya "locked"
+    status: "done", 
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    description: "Yazı mı tura mı? İnteraktif animasyonlu bir şans oyunu.",
+    description: "Fizik tabanlı animasyonlar ve asenkron state yönetimi ile kurgulanmış interaktif yazı-tura deneyimi.",
     slug: "flip-the-coin",
-    position: { x: 50, y: 80 }
   },
   {
+    position: 1,
     id: "qr-code-generator",
     title: "QR Code Generator",
     difficulty: "Junior",
-    tags: ["Next.js", "TypeScript", "QR API"],
-    description: "Linkleri anında QR koda dönüştüren ve indirme imkanı sunan araç.",
+    status: "done",
+    tags: ["Next.js", "TypeScript", "QR API", "Browser API"],
+    description: "URL'leri anlık olarak QR koda dönüştüren, indirme ve paylaşma özelliklerine sahip dinamik araç.",
     slug: "qr-code-generator",
-    position: { x: 35, y: 300 }
   },
   {
+    position: 2,
     id: "device-shop-checkout",
     title: "Device Shop Checkout",
     difficulty: "Junior", 
-    tags: ["Next.js", "Grid", "Forms"],
-    description: "Apple tarzı şık bir sepet ve ödeme sayfası. Karmaşık Grid yapıları ve form yönetimi üzerine bir çalışma.",
+    status: "done",
+    tags: ["Next.js", "Grid", "Forms", "State Management"],
+    description: "Apple tarzı şık bir sepet deneyimi. Karmaşık Grid yapıları ve form doğrulama süreçleri üzerine bir çalışma.",
     slug: "device-shop-checkout",
-    position: { x: 60, y: 520 } 
   }
 ];
