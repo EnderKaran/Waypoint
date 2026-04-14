@@ -7,9 +7,11 @@ import OrderSummary from "./OrderSummary";
 
 export default function DeviceShopCheckout() {
   return (
-    <div className="min-h-screen bg-[#0d1117] flex items-center justify-center p-4 md:p-10 font-sans">
-      {/* Tasarımdaki kavisli ana kart */}
-      <div className="w-full max-w-6xl bg-white rounded-[32px] overflow-hidden shadow-2xl flex flex-col md:grid md:grid-cols-[1.2fr_1fr]">
+    <div 
+      id="checkout-page"
+      className="min-h-screen bg-[#0d1117] flex items-center justify-center p-4 md:p-10 font-sans"
+    >
+      <div className="w-full max-w-6xl bg-white rounded-[32px] overflow-hidden shadow-2xl flex flex-col md:grid md:grid-cols-[1.2fr_1fr] relative z-10">
         
         {/* SOL TARAF: Sepet Özeti */}
         <div className="p-6 md:p-12 bg-[#F8FAFC]">
@@ -27,6 +29,26 @@ export default function DeviceShopCheckout() {
           <CheckoutForm />
         </div>
       </div>
+
+      <style jsx global>{`
+        #checkout-page {
+          /* Standart Ekranlar İçin Görsel */
+          background-image: url('/challenges/device-shop-checkout/background-image.png');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+
+        /* RETINA (YÜKSEK ÇÖZÜNÜRLÜKLÜ) EKRANLAR İÇİN OPTİMİZASYON */
+        @media 
+        (-webkit-min-device-pixel-ratio: 2), 
+        (min-resolution: 192dpi) { 
+          #checkout-page {
+            /* Retina Ekranlar İçin @2x Görseli */
+            background-image: url('/challenges/device-shop-checkout/background-image@2x.png');
+          }
+        }
+      `}</style>
     </div>
   );
 }
