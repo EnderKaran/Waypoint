@@ -31,5 +31,15 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "Grid", "Forms", "State Management"],
     description: "Apple tarzı şık bir sepet deneyimi. Karmaşık Grid yapıları ve form doğrulama süreçleri üzerine bir çalışma.",
     slug: "device-shop-checkout",
+  },
+  {
+    position: 3,
+    id: "github-profile",
+    title: "GitHub Profile",
+    difficulty: "Mid-Level",
+    status: "active",
+    tags: ["Next.js", "API Entegrasyonu", "Tailwind CSS"],
+    description: "GitHub API kullanarak gerçek zamanlı kullanıcı verisi çeken ve detaylı repo analizi sunan arayüz.",
+    slug: "github-profile",
   }
 ];
