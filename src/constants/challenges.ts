@@ -100,5 +100,15 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "Accessibility", "Semantic HTML"],
     description: "Klavye navigasyonu ve semantik etiket kurallarına tam uyumlu, temiz ve okunaklı bir sıkça sorulan sorular sayfası.",
     slug: "simple-faq",
+  },
+  {
+    position: 10,
+    id: "simple-homepage",
+    title: "Simple Homepage - Alarado",
+    difficulty: "Junior",
+    status: "done",
+    tags: ["Next.js", "Dark Mode", "Mobile Nav"],
+    description: "Mobil yan menü (drawer) mimarisine ve dinamik tema değiştirme motoruna sahip modern landing page çalışması.",
+    slug: "simple-homepage",
   }
 ];
