@@ -140,5 +140,15 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "Absolute Position", "Card UI"],
     description: "Mutlak konumlandırmalı dalga ayırıcı efektleri ve dengeli metin hiyerarşisi içeren mikro bir SaaS blog kartı bileşeni.",
     slug: "business-blog-card",
+  },
+  {
+    position: 14,
+    id: "minimal-blog-card",
+    title: "Minimal Blog Card",
+    difficulty: "Junior",
+    status: "done",
+    tags: ["Next.js", "Pixel Perfect", "Layout Design"],
+    description: "Tasarım blueprint ölçülerine tamamen sadık kalınarak üretilen, katı padding ve gölge standartlarına sahip minimal kart bileşeni.",
+    slug: "minimal-blog-card",
   }
 ];
