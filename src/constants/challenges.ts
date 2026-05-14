@@ -90,5 +90,15 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "Forms", "Validation"],
     description: "Kullanıcı girdilerini kontrol eden, temiz tasarımlı ve özel gölge hiyerarşisine sahip bir bülten kayıt kartı.",
     slug: "join-our-newsletter",
+  },
+  {
+    position: 9,
+    id: "simple-faq",
+    title: "Simple FAQ",
+    difficulty: "Junior",
+    status: "done",
+    tags: ["Next.js", "Accessibility", "Semantic HTML"],
+    description: "Klavye navigasyonu ve semantik etiket kurallarına tam uyumlu, temiz ve okunaklı bir sıkça sorulan sorular sayfası.",
+    slug: "simple-faq",
   }
 ];
