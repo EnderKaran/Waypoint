@@ -80,5 +80,15 @@ export const CHALLENGES: Challenge[] = [
   tags: ["Next.js", "Flexbox", "Content Strategy"],
   description: "Metin hiyerarşisi ve Flexbox hizalama teknikleri kullanılarak hazırlanan, temiz ve okunaklı bir makale listeleme arayüzü.",
   slug: "simple-article-listing",
-}
+},
+{
+    position: 8,
+    id: "join-our-newsletter",
+    title: "Join Our Newsletter",
+    difficulty: "Junior",
+    status: "done",
+    tags: ["Next.js", "Forms", "Validation"],
+    description: "Kullanıcı girdilerini kontrol eden, temiz tasarımlı ve özel gölge hiyerarşisine sahip bir bülten kayıt kartı.",
+    slug: "join-our-newsletter",
+  }
 ];
