@@ -6,7 +6,6 @@ export const CHALLENGES: Challenge[] = [
     id: "flip-the-coin",
     title: "Flip The Coin",
     difficulty: "Junior",
-    // Durum: "done", "active" veya "locked"
     status: "done", 
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     description: "Fizik tabanlı animasyonlar ve asenkron state yönetimi ile kurgulanmış interaktif yazı-tura deneyimi.",
@@ -41,5 +40,15 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "API Entegrasyonu", "Tailwind CSS"],
     description: "GitHub API kullanarak gerçek zamanlı kullanıcı verisi çeken ve detaylı repo analizi sunan arayüz.",
     slug: "github-profile",
+  },
+  {
+    position: 4,
+    id: "pricing-table",
+    title: "Pricing Table",
+    difficulty: "Junior",
+    status: "active",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Grid"],
+    description: "4 farklı plan seçeneği ve detaylı özellik karşılaştırmaları içeren, tipografi odaklı ve duyarlı bir fiyatlandırma arayüzü.",
+    slug: "pricing-table",
   }
 ];
