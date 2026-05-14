@@ -130,5 +130,15 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "Flexbox", "Asymmetric Layout"],
     description: "Asimetrik süzülen kart yerleşimleri, listeleme hiyerarşisi ve özel derinlikli gölge yapıları içeren modern bir referans sayfası.",
     slug: "testimonial-page",
+  },
+  {
+    position: 13,
+    id: "business-blog-card",
+    title: "Business Blog Card",
+    difficulty: "Junior",
+    status: "done",
+    tags: ["Next.js", "Absolute Position", "Card UI"],
+    description: "Mutlak konumlandırmalı dalga ayırıcı efektleri ve dengeli metin hiyerarşisi içeren mikro bir SaaS blog kartı bileşeni.",
+    slug: "business-blog-card",
   }
 ];
