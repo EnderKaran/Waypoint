@@ -120,5 +120,15 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "Forms", "Responsive Grid"],
     description: "Gelişmiş form elemanları, seçici dropdown yapıları ve dinamik doğrulama içeren kurumsal bir iletişim sayfası.",
     slug: "contact-page",
+  },
+  {
+    position: 12,
+    id: "testimonial-page",
+    title: "Testimonial Page",
+    difficulty: "Junior",
+    status: "done",
+    tags: ["Next.js", "Flexbox", "Asymmetric Layout"],
+    description: "Asimetrik süzülen kart yerleşimleri, listeleme hiyerarşisi ve özel derinlikli gölge yapıları içeren modern bir referans sayfası.",
+    slug: "testimonial-page",
   }
 ];
