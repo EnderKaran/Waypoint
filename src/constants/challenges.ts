@@ -70,5 +70,15 @@ export const CHALLENGES: Challenge[] = [
   tags: ["Next.js", "Flexbox", "Responsive"],
   description: "İç içe geçmiş Flexbox yapıları kullanılarak oluşturulan, modern kart tasarımlarına sahip SaaS özellik tanıtım alanı.",
   slug: "simple-feature-section",
+},
+{
+  position: 7,
+  id: "simple-article-listing",
+  title: "Simple Article Listing",
+  difficulty: "Junior",
+  status: "done",
+  tags: ["Next.js", "Flexbox", "Content Strategy"],
+  description: "Metin hiyerarşisi ve Flexbox hizalama teknikleri kullanılarak hazırlanan, temiz ve okunaklı bir makale listeleme arayüzü.",
+  slug: "simple-article-listing",
 }
 ];
