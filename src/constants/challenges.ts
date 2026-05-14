@@ -46,7 +46,7 @@ export const CHALLENGES: Challenge[] = [
     id: "pricing-table",
     title: "Pricing Table",
     difficulty: "Junior",
-    status: "active",
+    status: "done",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Grid"],
     description: "4 farklı plan seçeneği ve detaylı özellik karşılaştırmaları içeren, tipografi odaklı ve duyarlı bir fiyatlandırma arayüzü.",
     slug: "pricing-table",
