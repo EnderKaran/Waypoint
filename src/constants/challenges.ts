@@ -110,5 +110,15 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "Dark Mode", "Mobile Nav"],
     description: "Mobil yan menü (drawer) mimarisine ve dinamik tema değiştirme motoruna sahip modern landing page çalışması.",
     slug: "simple-homepage",
+  },
+  {
+    position: 11,
+    id: "contact-page",
+    title: "Contact Page",
+    difficulty: "Junior",
+    status: "done",
+    tags: ["Next.js", "Forms", "Responsive Grid"],
+    description: "Gelişmiş form elemanları, seçici dropdown yapıları ve dinamik doğrulama içeren kurumsal bir iletişim sayfası.",
+    slug: "contact-page",
   }
 ];
