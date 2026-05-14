@@ -60,5 +60,15 @@ export const CHALLENGES: Challenge[] = [
   tags: ["Next.js", "CSS Grid", "Responsive Design"],
   description: "Asimetrik grid yapıları ve gelişmiş pozisyonlama teknikleri kullanılarak inşa edilmiş, renkli bir ekip tanıtım sayfası.",
   slug: "meet-the-team",
+},
+{
+  position: 6,
+  id: "simple-feature-section",
+  title: "Simple Feature Section",
+  difficulty: "Junior",
+  status: "done",
+  tags: ["Next.js", "Flexbox", "Responsive"],
+  description: "İç içe geçmiş Flexbox yapıları kullanılarak oluşturulan, modern kart tasarımlarına sahip SaaS özellik tanıtım alanı.",
+  slug: "simple-feature-section",
 }
 ];
