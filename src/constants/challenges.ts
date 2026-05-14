@@ -50,5 +50,15 @@ export const CHALLENGES: Challenge[] = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Grid"],
     description: "4 farklı plan seçeneği ve detaylı özellik karşılaştırmaları içeren, tipografi odaklı ve duyarlı bir fiyatlandırma arayüzü.",
     slug: "pricing-table",
-  }
+  },
+  {
+  position: 5,
+  id: "meet-the-team",
+  title: "Meet the Team",
+  difficulty: "Junior",
+  status: "done",
+  tags: ["Next.js", "CSS Grid", "Responsive Design"],
+  description: "Asimetrik grid yapıları ve gelişmiş pozisyonlama teknikleri kullanılarak inşa edilmiş, renkli bir ekip tanıtım sayfası.",
+  slug: "meet-the-team",
+}
 ];
